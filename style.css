@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+
+header img {
+    width: 100%; /* Make the image responsive to fit the container */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: contain; /* Ensure the image is fully visible without being cropped */
+}
+.container1{
+    width: 100%; /* Make the image responsive to fit the container */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+    height: auto; /* Maintain the aspect ratio */
+   
+}
+
+.navbar {
+    background-color: #fbfbfb;
+    color: white;
+    width: 100%; /* Make the image responsive to fit the container */
+    max-width: 100%;
+    box-shadow: 0px 3px rgba(47, 47, 47, 0.514);
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.navbar a {
+    color: rgb(0, 63, 171);
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+    color:rgb(40, 148, 112)
+}
+
+.container h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+thead{
+    color:#003a70
+}
+
+.new-request-btn {
+    padding: 5px 10px;
+    margin-left: 20px;
+    background-color: #141516e4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.status_accepted{
+    padding: 5px 10px;
+    margin-left: 20px;
+    background-color: #26702ee4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+.status_accepted:hover{
+    background-color: #3da448e4;
+}
+.new-request-btn:hover {
+    background-color: #00509e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.payment-link {
+    color: #00509e;
+    text-decoration: none;
+}
+
+.payment-link:hover {
+    text-decoration: underline;
+}
+
+.status.accepted {
+    color: green;
+    font-weight: bold;
+}
+
+/* footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#003a70;
+    color: white;
+    margin-top: 20px;
+} */
+.foot {
+    align-items: end;
+    background-image: url('footer.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 150px;
+    margin-right: 160px;
+  }
+.head:hover{
+    cursor: pointer;
+}
+
